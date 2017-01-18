@@ -1,0 +1,69 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.swp
+*.swo
+**/*~
+**/*.bak
+**/*.sw[abcdefghijklmnop]
+.sass-cache
+
+# Packages #
+############
+fuel/app/logs/*/*/*
+fuel/app/cache/*/*
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+*.psd
+/.idea/workspace.xml
+/.idea/tasks.xml
+/node_modules
+/bower_components
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Wordpress Specific Ignores
+
+composer.lock
+package.json
+gulpfile.js
+httpdocs/wp-config.php
+./vendor
+vendor/composer/LICENSE
+vendor/composer/autoload_real.php
+vendor/composer/installed.json
+vendor/
+httpdocs/resdiary/themes/resdiary/.idea
+httpdocs/resdiary/themes/resdiary/.idea/*
+httpdocs/wordpress/
+httpdocs/resdiary/uploads/
+httpdocs/resdiary/plugins/
+httpdocs/resdiary/languages/
+
+# Theme Ignores
+
+/httpdocs/resdiary/themes/resdiary/assets/css/maps/main.css.map
+/httpdocs/resdiary/themes/resdiary/assets/js/maps/main.min.js.map
